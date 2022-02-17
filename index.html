@@ -24,18 +24,18 @@
       <div class="calculation-container">
         <div class="balance-container">
           <h3 class="amount-title">Income</h3>
-          <p class="inputs">Income: <input type="text"></p>
+          <p class="inputs">Income: <input id="income-input" type="text"></p>
           <h3 class="amount-title">Expenses</h3>
-          <p class="inputs">Food: <input type="text"></p>
-          <p class="inputs">Rent: <input type="text"></p>
-          <p class="inputs">Clothes: <input type="text"></p>
+          <p class="inputs">Food: <input id="food-input" type="text"></p>
+          <p class="inputs">Rent: <input id="rent-input" type="text"></p>
+          <p class="inputs">Clothes: <input id="clothes-input" type="text"></p>
         </div>
-        <button>Calculate</button>
-        <h2>Total Expenses: <span>2000</span></h2>
-        <h2>Balance: <span>2000</span></h2>
-        <p class="inputs">Save: <input type="text"> % <button>Save</button></p>
-        <h2>Saving Amount: <span>2000</span></h2>
-        <h2>Remaining Balance: <span>2000</span></h2>
+        <button id="calculate-btn">Calculate</button>
+        <h2>Total Expenses: <span id="expenses-total">0</span></h2>
+        <h2>Balance: <span id="balance-total">0</span></h2>
+        <p class="inputs">Save: <input id="save-input" type="text"> % <button id="save-btn">Save</button></p>
+        <h2>Saving Amount: <span id="saving-amount">0</span></h2>
+        <h2>Remaining Balance: <span id="remaining-balance">0</span></h2>
       </div>
     </section>
   </main>

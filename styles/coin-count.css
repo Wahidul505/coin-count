@@ -52,7 +52,7 @@ button{
   font-weight: bold;
 }
 .inputs input{
-  width: 160px;
+  width: 150px;
   padding: 8px;
   font-size: 18px;
   border: none;
@@ -66,5 +66,8 @@ button{
   .container{
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 30px;
+  }
+  .balance-container{
+    width: 80%;
   }
 }
